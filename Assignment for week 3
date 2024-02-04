@@ -1,0 +1,297 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPlRlgcmuZgQGeSDNVs03ru",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sirethel/Nwachukwu-project-/blob/main/Assignment%20for%20week%203\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "HcJ0EJz-imIf"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Assignment:\n",
+        " Developing a python script showcasing the basics learned, trying to demonstrate my understanding of python programming"
+      ],
+      "metadata": {
+        "id": "3k5SszmamHjk"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#getting the total number of boys and girls  in jss2 class\n",
+        "boys = 23\n",
+        "girls = 19\n",
+        "figures = boys+girls\n",
+        "print(figures)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-T_ced6BmPe9",
+        "outputId": "0f14b5a6-3e20-44a1-952f-2c1a198dd502"
+      },
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "42\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#getting the total number of boys and girls in jss3 class\n",
+        "boys = 34\n",
+        "girls = 22\n",
+        "sum = boys+girls\n",
+        "print(sum)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0_0CqKvpnevQ",
+        "outputId": "0eec77cd-e5bc-4673-f3ec-86fe4b948306"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "56\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#trying to get the names of jss1 and jss3 class captain and assistant\n",
+        "jss2_captain = \"ibrahim adam\"\n",
+        "jss3_captain = \"said jabiru\"\n",
+        "jss2_assistant = \"amina issa\"\n",
+        "jss3_assistant= \"aisha Idris\"\n",
+        "total_names = jss2_captain+jss3_captain+jss2_assistant+jss3_assistant\n",
+        "print(total_names)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7gfAoQE_n9yD",
+        "outputId": "67420b33-0965-409a-ab33-1a911974a80a"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ibrahim adamsaid jabiruamina issaaisha Idris\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#getting names of principal and vice principal of the school\n",
+        "principal = \"ibrahim babanginda\"\n",
+        "vice_principal= \"aisha badamasi\"\n",
+        "sum_names = principal+vice_principal\n",
+        "print(sum_names)"
+      ],
+      "metadata": {
+        "id": "OjdqwADNq2gc",
+        "outputId": "6d65270a-3368-4ce7-f494-108b2a892df7",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ibrahim babangindaaisha badamasi\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Displaying data types of the variables"
+      ],
+      "metadata": {
+        "id": "E15XdUNnr7HV"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(figures))"
+      ],
+      "metadata": {
+        "id": "7D9rTbH6sAYy",
+        "outputId": "d3f72174-b4ef-46de-aa09-50459f3b3159",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 38,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'int'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(sum))"
+      ],
+      "metadata": {
+        "id": "iyhlK_9ntGAT",
+        "outputId": "c68736cd-678b-496a-b795-5a4f68af71db",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 33,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'int'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(total_names))"
+      ],
+      "metadata": {
+        "id": "hk168g-8tcva",
+        "outputId": "739e04db-addb-438c-e2a4-d34e6841e4f1",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 34,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(sum_names))"
+      ],
+      "metadata": {
+        "id": "1RfW41HCtmNT",
+        "outputId": "953bafc4-99a9-4c87-9629-4f770b2eeb0f",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 39,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Getting the full names of the writer of the assignment"
+      ],
+      "metadata": {
+        "id": "UHw0bJ9ruVu3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#write a variable that can get my full names\n",
+        "first_name = \"ethel\"\n",
+        "middle_name = \"izuchukwu\"\n",
+        "last_name = \"nwachukwu\"\n",
+        "full_name = first_name+middle_name+last_name\n",
+        "print(full_name)"
+      ],
+      "metadata": {
+        "id": "dls7E5l3ucTN",
+        "outputId": "1e8595c4-8cf0-4b08-bacd-9f342f77e27e",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 42,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ethelizuchukwunwachukwu\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
