@@ -1,0 +1,489 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sirethel/Nwachukwu-project-/blob/main/week%204%20assignment%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "S9QE2QrnPOVo"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "week 4 assignment; to build a python program utilizing data structures, and functions to solve a data related task\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "gUf404tDQFMt"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "lIST"
+      ],
+      "metadata": {
+        "id": "X6No-1fTQ4C1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#creating a list with some variables assign to it\n",
+        "list = [2,4,6,8, 'hello', 'false']\n",
+        "# print the value of list\n",
+        "print(list)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xc0Ov7FoQ7B9",
+        "outputId": "1998fec7-749e-4053-b957-87cffe6128e4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[2, 4, 6, 8, 'hello', 'false']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#creating more variables\n",
+        "my_list = ['and,assert,claim,school']\n",
+        "#print the value of my_list\n",
+        "print(my_list)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Rpu-yowcSaRH",
+        "outputId": "75f94b6d-0e0a-4b3c-b16a-3214c66baf54"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['and,assert,claim,school']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "nA3WNbgVTzY6"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "TUPLES:"
+      ],
+      "metadata": {
+        "id": "Daq17xQgT0Rq"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#creating a tuples with some values assigned to it\n",
+        "ethels_tuple = (5,6,'gombe,nigeria')\n",
+        "#printing the value of tuple\n",
+        "print(ethels_tuple)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uO_47VfXT-Ly",
+        "outputId": "bec6fc7f-cc41-4f3b-feba-9bdb33d92e5a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "(5, 6, 'gombe,nigeria')\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#crating new tuples and using repeations in values to see what the result would be\n",
+        "my_tuple = (1,2,3,4,5,6, 'gana,nigeria,congo',1,2,3,4,5)\n",
+        "#printing the value of tuple\n",
+        "print(my_tuple)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "m2_qT11YV2Uo",
+        "outputId": "51194324-80fb-48b9-fc7e-0d1be8bead90"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "(1, 2, 3, 4, 5, 6, 'gana,nigeria,congo', 1, 2, 3, 4, 5)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "SETS:"
+      ],
+      "metadata": {
+        "id": "BZ0csr0zXXmw"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#writing a script that stores some values and assign it to a variable my_set\n",
+        "my_set = {9,8,7,6,5,2,3}\n",
+        "#displaying the values of the sets\n",
+        "print(my_set)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GKn2OLt9XdxS",
+        "outputId": "dca53319-0972-4f63-f248-81b514dc3621"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{2, 3, 5, 6, 7, 8, 9}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#writing down a duplicated values to see the result\n",
+        "new_set = {1,2,3,4,5,6,1,2,3,4,5,6,7,8}\n",
+        "#displaying the value of the sets\n",
+        "print(new_set)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nkbmXwlGYpor",
+        "outputId": "08c6a864-1b0b-4c39-f045-9e38f7c86901"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{1, 2, 3, 4, 5, 6, 7, 8}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#more examples\n",
+        "an_set = {'ope,meshark,joel,sarah,favour'}\n",
+        "#displaying the value of the sets\n",
+        "print(an_set)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jbZ86_CNZYm5",
+        "outputId": "b9bffdfe-d21b-4afb-b078-8dcd01d1cd27"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'ope,meshark,joel,sarah,favour'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "DICTIONARIES:"
+      ],
+      "metadata": {
+        "id": "834dJLFoaWgg"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#write a dictionaries script that stores some values and assign it to a variable my_dict\n",
+        "my_dict = {'name': 'ope','age': 29, 'city': 'dutse'}\n",
+        "#print the value of the dictionaries\n",
+        "print(my_dict)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KDv2ZKYsadVc",
+        "outputId": "e81797b3-dc75-4c4a-e8b2-12782c19560c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'name': 'ope', 'age': 29, 'city': 'dutse'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#trying various variables\n",
+        "new_dict = {'animals': 'goat,lion', 'sex': 'male,female', 'habitat': 'forest'}\n",
+        "#print the value of the dictionaries\n",
+        "print(new_dict)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "37HhwVeJe827",
+        "outputId": "b625afb1-181f-460f-a260-5e5d933432e8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'animals': 'goat,lion', 'sex': 'male,female', 'habitat': 'forest'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#trying other combinations of values\n",
+        "dict = {'name': 'ope,joel,meshark,ethel,favour', 'age': '29,31,27,22.28','city': 'dutse'}\n",
+        "#print the value of the dictionary\n",
+        "print(dict)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1-yA6tVKf5xS",
+        "outputId": "ad086f85-fa38-4bf2-819e-37ea1993bf36"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'name': 'ope,joel,meshark,ethel,favour', 'age': '29,31,27,22.28', 'city': 'dutse'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "CONDITIONAL STATEMENT"
+      ],
+      "metadata": {
+        "id": "m3BeBEfkg584"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#conditional statement\n",
+        "x = 20\n",
+        "if x > 0:\n",
+        "  print(\"x is positive\")\n",
+        "elif x == 0:\n",
+        "  print(\"x is zero\")\n",
+        "else:\n",
+        "  print(\"x is lower\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "W7N_pKm_hOgT",
+        "outputId": "759d83bc-ecc9-4765-d8ea-cf1ea7542225"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "x is positive\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#more examples\n",
+        "x = -10\n",
+        "if x > 0:\n",
+        "  print(\"x is positive\")\n",
+        "elif x == 0:\n",
+        "  print(\"x is zero\")\n",
+        "else:\n",
+        "  print(\"x is negative\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "f60_nI2oid63",
+        "outputId": "dfdbdd1e-3957-4b21-f623-b6cc8cd273c3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "x is negative\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "FUNTIONS:"
+      ],
+      "metadata": {
+        "id": "EO784BPRjP98"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#define a function called greet\n",
+        "def greet(name):\n",
+        "  print(\"hello,\"  + name)\n",
+        "#call the funtion\n",
+        "greet(\"ethel\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RcQBzOYOjWSH",
+        "outputId": "19459300-c3e6-41a6-a31b-a1c4cc114e25"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello,ethel\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#coding examples with function and conditional statement\n",
+        "def check_even_odd(num):\n",
+        "  #writing my code\n",
+        "  if num % 2 == 0:\n",
+        "    print(num, \"is even\")\n",
+        "  else:\n",
+        "      print(num, \"is odd\")\n",
+        "#test the function\n",
+        "check_even_odd(10)\n",
+        "check_even_odd(7)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RRVuL2LolAv8",
+        "outputId": "2e2103b1-ad51-4353-a42d-7f7eec60717e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10 is even\n",
+            "7 is odd\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
